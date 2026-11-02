@@ -1,0 +1,14 @@
+{
+  "id": "filcDoor",
+  "name": "filc Door",
+  "description": "Open a school door through the filc API",
+  "version": "1.0.0",
+  "author": "Dasa122",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "component": "./FilcDoor.qml",
+  "settings": "./FilcDoorSettings.qml",
+  "icon": "door_open",
+  "requires_dms": ">=2.0.0",
+  "permissions": ["settings_read", "settings_write", "process", "network"]
+}
